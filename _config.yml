@@ -1,6 +1,7 @@
 name: Fakechurch
 markdown: redcarpet
 highlighter: pygments
+site.baseurl: www.konjina.ug
 baseurl: /fakechurch
 collections:
   recepti:
