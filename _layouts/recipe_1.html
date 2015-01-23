@@ -2,21 +2,5 @@
 
     {% include header.html %}
 	{% include nav.html %}
-    <div class="tekst">
-  {% for recept in paginator.recepti %}
-  <div>
-    <h2>
-      <a href="{{ post.url }}">
-        {{ recept.ime }}
-        </a>
-          </h2>
-        {{ recept.vrijeme }}
-        {{ recept.osoba }}
-
-    <span class="post-date">{{ recept.date | date_to_string }}</span>
-
-    {{ recept.content }}
-  </div>
-  {% endfor %}
-</div>
+   
 {% include foot.html %}
