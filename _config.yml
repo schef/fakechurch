@@ -1,6 +1,7 @@
 name: Fakechurch
 markdown: redcarpet
 highlighter: pygments
+site.baseurl: www.bobo.us
 baseurl: /fakechurch
 collections:
   recepti:
