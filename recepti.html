@@ -7,12 +7,12 @@ title: Recepti
   {% for recept in site.recepti %}
   <div>
     <h2>
-      <a href="{{ post.url }}">
+      <a href="{{ site.url }}">
         {{ recept.ime }}
         </a>
           </h2>
-        <a>Vrijeme pripreme:{{ recept.vrijeme }}</a>
-        <a>Izradila osoba:{{ recept.osoba }}</a>
+        <a style="font-weight:bold;">Vrijeme pripreme: {{ recept.vrijeme }}</a><br/>
+        <a style="font-weight:bold;">{{ recept.osoba }} porcija  </a>
 
     {{ recept.content }}
   </div>
