@@ -3,6 +3,7 @@ layout: recepti
 ime: Riba u belom umaku
 vrijeme: 20 min
 osoba: 1
+slika: riba.jpg
 ---
 
 # Priprema

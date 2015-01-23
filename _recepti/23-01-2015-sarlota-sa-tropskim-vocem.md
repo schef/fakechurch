@@ -3,6 +3,7 @@ layout: recepti
 ime: Sarlota sa tropskim vocem
 vrijeme: 90
 osoba: 12
+slika: kolac.jpg
 ---
 
 # Priprema
