@@ -6,11 +6,9 @@ title: Recepti
  <div class="tekst">
   {% for recept in site.recepti %}
   <div>
-    <h2>
-      <a href="{{ site.url }}">
-        {{ recept.ime }}
-        </a>
-          </h2>
+    <h1>
+      <a class="no_style" href="{{ site.baseurl }}{{ recept.url }}">{{ recept.ime }} </a>
+          </h1>
         <a style="font-weight:bold;">Vrijeme pripreme: {{ recept.vrijeme }}</a><br/>
         <a style="font-weight:bold;">{{ recept.osoba }} porcija  </a>
 
