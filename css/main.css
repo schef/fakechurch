@@ -25,3 +25,7 @@ header { width:80%;
     border-color: gray;
     margin-top: 20px;
 }
+
+.no_style{
+text-decoration: none;
+}
