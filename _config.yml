@@ -1,7 +1,7 @@
 name: Fakechurch
 markdown: redcarpet
 highlighter: pygments
-baseurl: www.krekojekonj.hr
+baseurl: /fakechurch
 collections:
   recepti:
     output: true
