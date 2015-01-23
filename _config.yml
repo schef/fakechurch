@@ -1,4 +1,4 @@
 name: Fakechurch
-markdown: html
+markdown: redcarpet
 highlighter: pygments
 baseurl: /fakechurch
