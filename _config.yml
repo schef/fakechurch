@@ -1,7 +1,11 @@
 name: Fakechurch
 markdown: redcarpet
 highlighter: pygments
-baseurl: /fakechurch
+baseurl: www.krekojekonj.hr
 collections:
   recepti:
+    output: true
+  eventi:
+    output: true
+  kupiprodaj:
     output: true
